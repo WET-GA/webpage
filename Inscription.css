@@ -1,0 +1,59 @@
+.conteneur
+{
+    border : 1px solid black;
+    text-align : left;
+    width : 40%;
+    padding-bottom: 1em;
+    padding-top:   1em;
+    padding-left: 1em;
+	margin-left : auto;
+	margin-right : auto;
+    
+}
+
+
+
+margin-top: 2em;
+margin-left: 10em; 
+    
+*
+{
+    margin-bottom: 1em;
+    font-family : calibri;
+}
+
+.titre{
+    text-align: center;
+    font-size : 2em;
+    opacity: 0.5;
+    color : RGB(51, 162, 250);
+    text-shadow : RGB(51, 162, 250) 0px 10px 10px;
+}	
+
+#lab
+{
+	width : 35%;
+	text-align : right;
+}
+
+#ka
+{
+	width : 100%;
+}
+
+#nom_user, #email, #password, #date
+{
+	float : right;
+	margin-right : 20%;
+	width : 30%;
+}
+
+p
+{
+	text-align : center;
+}
+
+.prism
+{
+	font-size : 3em;
+}
