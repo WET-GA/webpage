@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+fieldset{
+ border-color:#FF0000;
+ width:500px;
+}
+
+legend{
+	color:red;
+}
+
+input{
+	background-color:#FFF3F3;
+	border-radius:4px;
+	width:100px;
+}
+
+input:focus{
+	background-color:white;
+}
+
+label{
+	
+	display:inline-block;
+	width:150px;
+	text-align:right;
+	margin-right:50px;
+}
+	
+		
+

@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>signup</title>
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+ 
+</head>
+<body>
+<div class="header_bg1">
+<div class="container">
+	<div class="row header">
+		<div class="logo navbar-left">
+		 <img src="logo.png"  style="width:600px;height:100px">
+		</div>
+		<div class="h_search navbar-right">
+			<form>
+				<input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
+				<input type="submit" value="search">
+			</form>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="row h_menu">
+		<nav class="navbar navbar-default navbar-left" role="navigation">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     <ul class="nav navbar-nav">
+		        <li ><a href="index.html">Home</a></li>
+		         <li ><a href="student.html">Student</a></li>
+		        <li><a href="faculty.html">Faculty</a></li>
+		        <li><a href="parent.html">Alumni</a></li></ul>	        
+		    </div>
+		</nav>
+		<div class="soc_icons navbar-right">
+			<ul class="list-unstyled text-center">
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			</ul>	
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+</div>
+
+<h2 align="center">Sign Up</h2>
+<div class="container" align="center" >
+
+    <div class="row">
+    
+<form action="http://www.SnapHost.com/captcha/WebFormSubmit.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);">
+<input id="SnapHostID" name="SnapHostID" type="hidden" value="DD7635SXGDZK" />
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.FirstName.value == "") {alert('First Name is required.');frm.FirstName.focus();return false;}
+if (frm.LastName.value == "") {alert('Last Name is required.');frm.LastName.focus();return false;}
+if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+if (frm.StreetAddress1.value == "") {alert('Address is required.');frm.StreetAddress1.focus();return false;}
+if (frm.City.value == "") {alert('City is required.');frm.City.focus();return false;}
+if (frm.Country.value == "") {alert('Country is required.');frm.Country.focus();return false;}
+if (frm.CaptchaCode.value == "") {alert('Enter web form code.');frm.CaptchaCode.focus();return false;}
+return true; }
+function ReloadCaptchaImage(captchaImageId) {
+var obj = document.getElementById(captchaImageId);
+var src = obj.src;
+var date = new Date();
+var pos = src.indexOf('&rad=');
+if (pos >= 0) { src = src.substr(0, pos); }
+obj.src = src + '&rad=' + date.getTime();
+return false; }
+</script>
+<h5><table  border="0" cellpadding="6" cellspacing="5" width="600">
+
+<tr height="20px;"></tr>
+
+<tr>
+<td><b>USERNAME:</b></td>
+<td><input id="HomePhone" name="HomePhone" type="text" maxlength="43" style="width:250px; border:1px solid #999999" /></td>
+</tr>
+<tr height="20px;"></tr>
+<tr>
+<td><b>PASSWORD:</b></td>
+<td><input id="HomePhone" name="HomePhone" type="text" maxlength="43" style="width:250px; border:1px solid #999999" /></td>
+</tr>
+<tr height="20px;"></tr>
+<tr>
+
+<td><b>First, Last Name*:</b></td>
+<td>
+<input id="FirstName" name="FirstName" type="text" maxlength="60" style="width:146px; border:1px solid #999999" />
+<input id="LastName" name="LastName" type="text" maxlength="60" style="width:146px; border:1px solid #999999" />
+</td>
+</tr>
+<tr height="20px;"></tr>
+<tr>
+<td><b>Email address*:</b></td>
+<td><input id="FromEmailAddress" name="FromEmailAddress" type="text" maxlength="60" style="width:300px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<tr height="20px;"></tr>
+<tr>
+<td><b>Cell Phone:</b></td>
+<td><input id="CellPhone" name="CellPhone" type="text" maxlength="43" style="width:250px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<td><b>Address 1*:</b></td>
+<td><input id="StreetAddress1" name="StreetAddress1" type="text" maxlength="120" style="width:350px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<td><b>City*:</b></td>
+<td><input id="City" name="City" type="text" maxlength="120" style="width:300px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<td><b>State/Province:</b></td>
+<td><input id="State" name="State" type="text" maxlength="120" style="width:300px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<td><b>Zip/Postal Code:</b></td>
+<td><input id="Zip" name="Zip" type="text" maxlength="30" style="width:100px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<td><b>Country*:</b></td>
+<td><input id="Country" name="Country" type="text" maxlength="120" style="width:300px; border:1px solid #999999" /></td>
+</tr><tr height="20px;"></tr><tr>
+<td colspan="2" align="center">
+<br />
+<tr height="20px;"></tr>
+<tr>
+<td><b>Photo Upload:</b></td>
+<td><input  type="file" name="pic" accept="image/*"><br>
+  <input type="submit"><br></td>
+  </tr>
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr valign="top">
+<td><br><br>
+<i>Enter web form code*:</i>
+<input id="CaptchaCode" name="CaptchaCode" type="text" style="width:80px; border:1px solid #999999;" maxlength="6" />
+</td><td>
+<a href="http://www.SnapHost.com"><img id="CaptchaImage" alt="Web Form Code" title="Anti-spam web forms"
+style="margin-left:20px; border:1px solid #999999"
+src="http://www.SnapHost.com/captcha/WebForm.aspx?id=DD7635SXGDZK&ImgType=2" /></a>
+<br /><a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:12px;">reload image</span></a>
+</td>
+</tr>
+</table>
+<br />
+* - required fields. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<input id="skip_Submit" name="skip_Submit" type="submit" value="Submit" />
+</td>
+</tr>
+</table>
+<br />
+
+  
+
+</form></h5>
+</div>
+</div>
+</div>
+</body>
+</html>
